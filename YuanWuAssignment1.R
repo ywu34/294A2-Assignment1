@@ -60,10 +60,10 @@ summary(df$rw)
 print("   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.    NA's 
           1.8    10.7    15.9    19.8    24.4   354.8  521279 ")
 #5
-a<-c(1,2,3,4,5,6,7,4,NULL,NA)
-length(a)
+v<-c(1,2,3,4,5,6,7,4,NULL,NA)
+length(v)
 print("length=9,NULL was ignored and not exist in the dataset.")
-mean(a,na.rm=TRUE)
+mean(v,na.rm=TRUE)
 print("mean=4")
 #6
 x<-matrix(c(1,2,3,4,5,6,7,8,9),ncol=3,byrow=TRUE)
